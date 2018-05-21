@@ -1,0 +1,16 @@
+.btn {
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.success {background-color: #4CAF50;} 
+
+.info {background-color: #2196F3;} 
+
+.warning {background-color: #ff9800;} 
+
+.danger {background-color: #f44336;}
+
+.default {background-color: #e7e7e7; color: black;} 
