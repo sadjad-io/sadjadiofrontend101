@@ -1,0 +1,105 @@
+@font-face {
+  font-family: Yekan;
+  src: url('http://fonts.codearena.ir/b/yekan/yekan.eot');
+  src: url('http://fonts.codearena.ir/b/yekan/yekan.eot?#iefix') format('embedded-opentype'),
+        url('http://fonts.codearena.ir/b/yekan/yekan.woff') format('woff'),
+        url('http://fonts.codearena.ir/b/yekan/yekan.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.eot');
+  src: url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.eot?#iefix') format('embedded-opentype'),
+        url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.woff') format('woff'),
+        url('http://fonts.codearena.ir/rastikerdar/sahel/sahel.ttf') format('truetype');
+  font-weight: normal;
+}  
+
+.container {
+  width: 650px;
+  height: auto;
+  margin: 0 auto; /* centralize */
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+
+.header h1 {
+  font-family: Yekan;
+}
+.contents {
+  width: 100%;
+  height: auto;
+  border: solid 2px black;
+  /* border-radius: 10px; */
+}
+.footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border: solid 2px black;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+.footer p {
+  font-family: Sahel;
+}
+
+.news {
+  height: 200px;
+  width: 100%;
+  margin: 0;
+  /* padding: 10px; */
+
+}
+
+.news p {
+  font-size: 15px;
+  font-family: Sahel;
+  text-align: justify;
+}
+
+.right-text {
+  float: right;
+  width: 70%;
+  height: 200px;
+  background-color: springgreen;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left-text {
+  float: left;
+  width: 70%;
+  height: 200px;
+  background-color: springgreen;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.left-pic {
+  float: left;
+  width: 30%;
+  background-color: teal;
+  height: 200px;
+  box-sizing: border-box;
+}
+.right-pic {
+  float: right;
+  width: 30%;
+  background-color: teal;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+hr {
+  height: 0.5px;
+  width: 50%;
+}
