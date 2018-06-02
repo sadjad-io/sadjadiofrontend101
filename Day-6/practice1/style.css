@@ -1,0 +1,55 @@
+  
+/* font-Vazir */
+@font-face {
+    font-family: Vazir;
+    src: url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.eot');
+    src: url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.woff') format('woff'),
+         url('http://fonts.codearena.ir/rastikerdar/vazir/vazir.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Titrbold */
+@font-face {
+    font-family: Titr;
+    src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot');
+    src: url('http://fonts.codearena.ir/b/titrbold/titrbold.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/titrbold/titrbold.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/titrbold/titrbold.ttf') format('truetype');
+    font-weight: normal;
+  }  
+/* font-Yekan */
+@font-face {
+    font-family: Yekan;
+    src: url('http://fonts.codearena.ir/b/yekan/yekan.eot');
+    src: url('http://fonts.codearena.ir/b/yekan/yekan.eot?#iefix') format('embedded-opentype'),
+         url('http://fonts.codearena.ir/b/yekan/yekan.woff') format('woff'),
+         url('http://fonts.codearena.ir/b/yekan/yekan.ttf') format('truetype');
+    font-weight: normal;
+  }
+body {
+    background: #2d343d;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center; 
+    color: aqua;
+    font-size: 30px;
+    padding-top: 200px;
+}
+
+.box {
+    margin-top: 100px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: aliceblue;
+    display: inline;
+    font-family: Vazir;
+    font-size: 20px;    
+}

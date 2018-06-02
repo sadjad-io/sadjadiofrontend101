@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+<meta charset="utf-8">
+<script>
+function size() {
+    var w = window.outerWidth;
+    var h = window.outerHeight;
+    var txt = "سایز صفحه:<Br>عرض: " + w + ", ارتفاع: " + h;
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+</head>
+
+<body onresize="size()">
+<h1 id="demo"> </h1>
+
+</body>
+
+</html>
+
