@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>تمرین</title>
+
+	<style>
+		body {
+			margin: 0px;
+			padding: 0;
+		}
+
+		.container {
+			width: 100%;
+			height: 100vh;
+		}
+
+		.boxphoto {
+			width: 90%;
+			height: 400px;
+			margin: 50px auto auto auto;
+		}
+
+		.leftphoto {
+			background: #003A8A;
+			width: 30%;
+			height: 100%;
+			float: left;
+		}
+
+		.centerphoto {
+			background: #077E74;
+			width: 30%;
+			height: 100%;
+			float: left;
+			margin-left: 5%;
+		}
+
+		.rightphoto {
+			background: #036B02;
+			width: 30%;
+			height: 100%;
+			float: right;
+		}
+
+		.txtbox {
+			width: 50%;
+			height: 150px;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			padding-top: 20px;
+			font-size: 30px;
+		}
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+		<div class="boxphoto">
+			<div class="leftphoto" ondblclick="show_l()"></div>
+			<div class="centerphoto" ondblclick="show_c()"></div>
+			<div class="rightphoto" ondblclick="show_r()"></div>
+		</div>
+		<div class="txtbox" id="txt">
+			<h3 id="titr">برای دیدن توضیحات کلیک کنید!</h3>
+		</div>
+	</div>
+	<script>
+		function show_l() {
+			document.getElementById("titr").innerHTML = "رضا حسین نژاد";
+		}
+
+		function show_c() {
+			document.getElementById("titr").innerHTML = "محمود احمدی نژاد";
+		}
+
+		function show_r() {
+			document.getElementById("titr").innerHTML = "حسن روحانی";
+		}
+	</script>
+</body>
+
+</html>
